@@ -1,0 +1,42 @@
+[
+  {
+    "legend": "Your contact information",
+    "columns": 3,
+    "fields": [
+      {
+        "type": "text",
+        "name": "first-name",
+        "placeholder": "First name",
+        "autoComplete": "given-name",
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "last-name",
+        "placeholder": "Last name",
+        "autoComplete": "family-name",
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "email",
+        "placeholder": "Email address",
+        "autoComplete": "email",
+        "inputType": "email",
+        "required": true
+      }
+    ]
+  },
+  {
+    "legend": "Your message",
+    "columns": 1,
+    "fields": [
+      {
+        "type": "textarea",
+        "name": "message",
+        "placeholder": "Type your message here...",
+        "rows": 7
+      }
+    ]
+  }
+]
